@@ -44,7 +44,7 @@
             sourceMstart = $('#template-n01-more-start').html(),
             sourceMend = $('#template-n01-more-end').html(),
             $ulmenu = $nav.find('.menuWrap ul.menu'),
-            $menuData = $ulmenu.data('navli'),
+            $menuData = $ulmenu.data('navli') ? $ulmenu.data('navli') : {},
             $menuLen = $menuData.length,
             template,
             menuInner = '',

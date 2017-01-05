@@ -1,0 +1,58 @@
+doctype html
+html(lang='zh-TW')
+  head
+    include ./base/head.jade
+  body
+    #fb-root
+    h1.hide 夏日穿搭特輯 - JUKSY 流行生活網
+    include ./nav/n_01.jade
+    include ./header/h_01.jade
+    include ./header/h_02.jade
+    include ./header/h_03.jade
+    include ./layout/l_04.jade
+    include ./article/a_01.jade
+    include ./layout/l_06.jade
+    include ./layout/l_05.jade
+    include ./layout/l_05_tag.jade
+    include ./article/a_02.jade
+    include ./gallery/g_02.jade
+    include ./gallery/g_01.jade
+    include ./video/v_01.jade
+    include ./layout/l_01.jade
+    include ./layout/l_03.jade
+    include ./layout/l_02.jade
+    include ./layout/l_03_infinite.jade
+    include ./footer/f_01.jade
+    include ./btnfixed/b_01.jade
+    include ./gallery/photoswipe_ui.jade
+
+    // JS start
+    include ./nav/n_01_tem.jade
+    include ./layout/l_03_infinite_script.jade
+    include ./layout/l_05_tag_script.jade
+    include ./layout/l_06_script.jade
+
+    // JS cdn
+    script(src="//embedsocial.com/js/iframe.js")
+
+    // JS DEV FILE
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="//cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jssor-slider/21.1.5/jssor.slider.mini.js")
+    script(src="js/index.js")
+
+    // JS MIN FILE
+    //script(src="js/app.assets.js")
+    //script(src="js/app.min.js")
+
+    // JS third party
+    script(type='text/javascript')
+      include ./js/foot.js
+    // JS third party end
+
+    // JS end

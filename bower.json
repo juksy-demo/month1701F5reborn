@@ -1,0 +1,31 @@
+{
+  "name": "juksy-events",
+  "homepage": "https://github.com/juksy-demo/events",
+  "authors": [
+    "Anny <anny@juksy.com>"
+  ],
+  "description": "",
+  "main": [
+    "css/app.min.css",
+    "js/app.assets.js",
+    "js/app.min.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "clipboard": "^1.5.15",
+    "handlebars": "^4.0.5",
+    "jquery-throttle-debounce": "https://github.com/cowboy/jquery-throttle-debounce.git",
+    "jquery": "^3.1.1",
+    "jQuery.dotdotdot": "https://github.com/FrDH/jQuery.dotdotdot.git#^1.8.3",
+    "jssor-slider": "^21.1.5",
+    "photoswipe": "^4.1.1",
+    "lodash": "^4.17.4"
+  }
+}
